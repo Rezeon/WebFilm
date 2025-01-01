@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../asset/styles/login.css">
+
+</head>
+<body class="flex justify-center min-h-screen" >
+
+    <div class="w-full max-w-[529px] h-auto sm:h-[663px] mt-[181px] p-[40px] rounded-[16px] bg-[#181A1CD6] mb-[181px] sm:mb-[181px] gap-[37px]
+        flex flex-col mx-auto items-center text-white">
+        <!-- Gambar Logo -->
+        <img src="../asset/images/Logo.png" class="opacity-100">
+
+        <!-- Teks -->
+        <div class="text-center">
+            <h1 class="text-3xl font-semibold">MASUK</h1>
+            <h4 class="text-xl">Selamat Datang Kembali!</h4>
+        </div>
+        
+        <div>
+            <label for="username" class="block text-sm font-medium text-white-700 rounded-[24px]">Username</label>
+            <input type="text" id="username" name="username" required class="mt-1 p-[14px_20px] w-[449px] h-[50px] border-[1px] border-[#E7E3FC] rounded-[24px] bg-transparent" placeholder="Masukkan username">
+          </div>
+          
+          <div class="mb-6">
+            <label for="password" class="block text-sm font-medium text-white-700 rounded-[24px]">Kata Sandi</label>
+            <input type="password" id="password" name="password" required class="mt-1 p-[14px_20px] w-[449px] h-[50px] border-[1px] border-[#E7E3FC] rounded-[24px] bg-transparent" placeholder="Masukkan kata sandi">
+            <h1 class="text-gray-700 mt-[5px] flex justify-between items-center">
+                Belum Punya Akun?  
+                <a href="./register.html" class="text-white"> Daftar</a>
+                <span class="ml-auto">
+                  <a href="" class="text-white">Lupa Kata Sandi?</a>
+                </span>
+            </h1>
+              
+        </div>
+        <div class="w-[449px] h-[113px]">
+            <button class="w-full h-[50px] rounded-[24px] gap-10px bg-[#3D4142]" ><a href="../beranda.html">Masuk</a></button>
+            <h1 class="text-center mt-[5px] mb-[5px] text-gray-700">Atau</h1>
+            <button class="w-full h-[50px] rounded-[24px] justify-center flex items-center gap-2 border-[1px] bg-transparent">
+                <img src="../asset/images/Google.png" alt="Google" class="h-[24px] w-auto"> 
+                <span>Masuk dengan Google</span>
+            </button>
+              
+
+        </div>
+          
+          
+            
+          
+    </div>
+
+</body>
+
+</html>

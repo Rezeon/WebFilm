@@ -1,0 +1,71 @@
+.dummy {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../images/dummyBG.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 1;
+    display: block;
+    box-shadow:  0 -300px 500px rgba(0, 0, 0, 1) inset,  0 -100px 30px rgba(0, 0, 0, 0.2) inset;
+}
+
+
+.pint {
+    color: white;
+    font-size: 0.4rem;
+    line-height: 1rem;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .pint {
+      font-size: 0.875rem; 
+      line-height: 1.25rem;
+    }
+  }
+
+
+  .absolute-container {
+    position: absolute;
+    width: 14px;
+    height: 25px;
+    border-radius: 0px 2px 0px 2px;
+    right: 10px;
+    gap: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B71F1D;
+    font-size: 0.75rem;
+  }
+  
+  @media (min-width: 768px) {
+    .absolute-container {
+      width: 31px;
+      height: 48px;
+      border-radius: 0px 4px 0px 4px;
+      font-size: 1rem;
+    }
+  }
+  
+  .absolute-container h1 {
+    font-size: 0.4rem;
+    width: 11px;
+    height: 18px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .absolute-container h1 {
+      font-size: 0.875rem;
+      width: 23px;
+      height: 40px;
+    }
+  }
+  
+  
+
+
