@@ -11,38 +11,40 @@
 </head>
 <body class="flex justify-center min-h-screen" >
 
-    <div class="w-full max-w-[529px] h-auto sm:h-[778px] mt-[181px] p-[40px] rounded-[16px] bg-[#181A1CD6] mb-[181px] sm:mb-[181px] gap-[37px]
+    <div class="w-[306px] md:w-[529px] h-[452px] md:h-[663px] mt-[172px] md:mt-[181px] p-[24px] md:p-[40px] rounded-[8px] md:rounded-[16px] bg-[#181A1CD6] mb-[181px] sm:mb-[181px] gap-[20px] mb:gap-[37px]
         flex flex-col mx-auto items-center text-white">
-        <img src="../asset/images/Logo.png" class="opacity-100">
-        <div class="text-center">
-            <h1 class="text-3xl font-semibold">DAFTAR</h1>
-            <h4 class="text-xl">Selamat Datang!</h4>
+        <img src="../asset/images/Logo.png" class="opacity-100 w-[94px] h-[24px] md:w-[163px] md:h-[44px]">
+        <div class="text-center w-[200px] h-[43px] md:w-[300px] md:h-[65px] gap-[4px] md:gap-[6px]">
+            <h1 class="text-sm md:text-3xl font-semibold">DAFTAR</h1>
+            <h4 class="text-sm md:text-lg">Selamat Datang!</h4>
         </div>
         
-        <div>
-            <label for="username" class="block text-sm font-medium text-white-700 rounded-[24px]">Username</label>
-            <input type="text" id="username" name="username" required class="mt-1 p-[14px_20px] w-[449px] h-[50px] border-[1px] border-[#E7E3FC] rounded-[24px] bg-transparent" placeholder="Masukkan username">
-        </div>
-          
-        <div>
-            <label for="password" class="block text-sm font-medium text-white-700 rounded-[24px]">Kata Sandi</label>
-            <input type="password" id="password" name="password" required class="mt-1 p-[14px_20px] w-[449px] h-[50px] border-[1px] border-[#E7E3FC] rounded-[24px] bg-transparent" placeholder="Masukkan kata sandi">
+        <div class="w-[260px] h-[45px] md:w-[449px] md:h-[81px] relative gap-[3px] md:gap-[6px]">
+            <label for="username" class="block text-xs md:text-sm font-medium text-white-700 rounded-[12px]  rounded-[24px]">Username</label>
+            <input type="text" id="username" name="username" required class="p-[8px_11px] md:p-[14px_20px] w-full h-[28px] md:h-[50px] border-[1px] border-[#E7E3FC] rounded-[12px] md:rounded-[24px] bg-transparent text-xs md:text-sm" placeholder="Masukkan username">
         </div>
 
-        <div>
-            <label for="password" class="block text-sm font-medium text-white-700 rounded-[24px]">Konfirmasi Kata Sandi</label>
-            <input type="password" id="password" name="password" required class="mt-1 p-[14px_20px] w-[449px] h-[50px] border-[1px] border-[#E7E3FC] rounded-[24px] bg-transparent" placeholder="Masukkan kata sandi">
-            <h1 class="text-gray-700 mt-[5px]">
+        <div class="w-[260px] h-[45px] md:w-[449px] md:h-[81px] relative gap-[3px] md:gap-[6px]">
+            <label for="password" class="block text-xs md:text-sm font-medium text-white-700 rounded-[12px] md:rounded-[24px]">Kata Sandi</label>
+            <input type="password" id="password" name="password" required class="p-[8px_11px] md:p-[14px_20px] w-full h-[28px] md:h-[50px] border-[1px] border-[#E7E3FC] rounded-[12px] md:rounded-[24px] bg-transparent text-xs md:text-sm" placeholder="Masukkan kata sandi">
+        </div>
+          
+        <div class="w-[260px] h-[66px] md:w-[449px] md:h-[112px] relative gap-[12px]">
+            <div class="w-[260px] h-[45px] md:w-[449px] md:h-[81px] relative gap-[3px] md:gap-[6px]">
+                <label for="password" class="block text-xs md:text-sm font-medium text-white-700 rounded-[12px] md:rounded-[24px]">Konfirmasi Kata Sandi</label>
+                <input type="password" id="password" name="password" required class="p-[8px_11px] md:p-[14px_20px] w-full h-[28px] md:h-[50px] border-[1px] border-[#E7E3FC] rounded-[12px] md:rounded-[24px] bg-transparent text-xs md:text-sm" placeholder="Masukkan kata sandi">
+            </div>
+            <h1 class="text-gray-700 mt-[5px] flex items-center text-xs md:text-sm">
                 Sudah Punya Akun?  
                 <a href="./login.html" class="text-white"> Masuk</a>
             </h1>
+              
         </div>
-
-        <div class="w-[449px] h-[113px]">
-            <button class="w-full h-[50px] rounded-[24px] gap-10px bg-[#3D4142]">Masuk</button>
-            <h1 class="text-center mt-[5px] mb-[5px] text-gray-700">Atau</h1>
-            <button class="w-full h-[50px] rounded-[24px] justify-center flex items-center gap-2 border-[1px] bg-transparent">
-                <img src="../asset/images/Google.png" alt="Google" class="h-[24px] w-auto"> 
+        <div class="w-[258px] h-[79px] md:w-[449px] md:h-[113px] relative gap-[4px] md:gap-[8px]">
+            <button class="w-full h-[30px] md:h-[50px] rounded-[13px] md:rounded-[24px] gap-[6px] md:gap-[10px] bg-[#3D4142]" ><a href="../index.html" class="text-xs md:text-sm">Masuk</a></button>
+            <h1 class="text-center mt-[5px] mb-[5px] text-gray-700 text-xs md:text-sm">Atau</h1>
+            <button class="w-full h-[30px] md:h-[50px] rounded-[13px] md:rounded-[24px] gap-[6px] md:gap-[10px] border-[1px] bg-transparent text-xs md:text-sm justify-center items-center flex">
+                <img src="../asset/images/Google.png" alt="Google" class="h-[10px] w-[10px] md:h-[18px] md:w-[18px]"> 
                 <span>Masuk dengan Google</span>
             </button>
               
